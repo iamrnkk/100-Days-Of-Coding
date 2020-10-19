@@ -6,10 +6,10 @@
 
 public class Day4 {
 
-	//function to link couples together
-	//i.e if refArr = [1 8 5 4 6 9 14 13 12 10 2 11 18 17 16 15]
-	//then pair =     [8 1 4 5 9 6 13 14 10 12 11 2 17 18 15 16]
-	//now refArr[i]'s pair is pair[i] and we can access them using same index
+	  // function to link couples together
+	  // i.e if refArr = [1 8 5 4 6 9 14 13 12 10 2 11 18 17 16 15]
+	  // then pair =     [8 1 4 5 9 6 13 14 10 12 11 2 17 18 15 16]
+	  // now refArr[i]'s pair is pair[i] and we can access them using same index
     static void linkPeople(int pair[],int refArr[])
     {
         for(int i=0; i< refArr.length; i++)
@@ -22,31 +22,31 @@ public class Day4 {
             }
         }
 
-    //function that matches couples together
+    // function that matches couples together
     static void sortPair(int arrToSort[],int pair[],int refArr[],int m)
     {
-        //counts the number of swaps
+      // counts the number of swaps
     	int swaps= 0;
 
-    	//i loop is for accessing 1 person from each pair from arrToSort
+    	  // i loop is for accessing 1 person from each pair from arrToSort
         for(int i=0; i< m; i=i+2)
         {
 
-        	//j loop is for accessing each person from refArr
-        	//and search for the pair by looking into pairs
+        	// j loop is for accessing each person from refArr
+        	// and search for the pair by looking into pairs
         	for(int j=0;j< m; j++)
             {
-                //when you get the same person from arrToSort in refArr
+            // when you get the same person from arrToSort in refArr
         		if(arrToSort[i]==refArr[j])
                 {
-                    //get the person's pair from pair by using same index j as in refArr
-        			int currentPair = pair[j];
+                 // get the person's pair from pair by using same index j as in refArr
+        			    int currentPair = pair[j];
 
-        			//now find the pair in arrToSort and match them
+        		       	//now find the pair in arrToSort and match them
                     for(int k=i+1; k<m;k++)
                     {
                         //when you find the position of pair , swap it next to person
-                    	if(arrToSort[k]==currentPair && arrToSort[i+1]!=currentPair)
+                    	  if(arrToSort[k]==currentPair && arrToSort[i+1]!=currentPair)
                         {
                             int t= arrToSort[i+1];
                             arrToSort[i+1]= arrToSort[k];

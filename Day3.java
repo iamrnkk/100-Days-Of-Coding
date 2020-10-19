@@ -1,8 +1,8 @@
 // The Sieve of Eratosthenes is an algorithm used to generate all prime numbers smaller than N.
 //The method is to take increasingly larger prime numbers, and mark their multiples as composite.
 // For example, to find all primes less than 100, we would first mark [4, 6, 8, ...] (multiples of two),
-//then [6, 9, 12, ...] (multiples of three), and so on. Once we have done this for all primes less than N,
-//the unmarked numbers that remain will be prime.
+// then [6, 9, 12, ...] (multiples of three), and so on. Once we have done this for all primes less than N,
+// the unmarked numbers that remain will be prime.
 // Implement this algorithm.
 
 import java.io.*;
@@ -11,7 +11,7 @@ public class Day3
 {
 	static ArrayList<Integer> primes = new ArrayList<>();
 
-	//constructor to initialize every element in an arrayList as 1 (true) except 0th and 1st element
+	// constructor to initialize every element in an arrayList as 1 (true) except 0th and 1st element
 	public Day3(int n)
 	{
 		for(int i= 0; i < n; i++)
@@ -20,19 +20,19 @@ public class Day3
 		primes.set(1,0);
 	}
 
-    //function to check actual prime numbers
+  // function to check actual prime numbers
 	public void checkPrime(int n)
 	{
-        //looping to acces each element in array
+    // looping to acces each element in array
 		for (int i=2; i < n; i++)
 		{
-			//now checking if the current element is a prime number
+						// now checking if the current element is a prime number
             if(primes.get(i) == 1)
 			{
-				//giving prime number its actual value (currently it stores 1)
+								// giving prime number its actual value (currently it stores 1)
                 primes.set(i,i);
 
-                //looping to find multiples of each prime numbers and make them 0(false)
+        // looping to find multiples of each prime numbers and make them 0(false)
 				for (int j=2; (i*j) < n/2; j++)
 					    primes.set((i*j),0);
 			}

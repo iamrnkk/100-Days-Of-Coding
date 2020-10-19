@@ -5,27 +5,27 @@
 import java.io.*;
 class Day1
 {
-  //function to check if there is a pair that sums upto k in an array
+  // function to check if there is a pair that sums upto k in an array
   static boolean check(int a[],int k)
   {
-    //i loop takes a no. from array one by one
+    // i loop takes a no. from array one by one
     for (int i=0; i < a.length; i++)
     {
-      //j loop takes next no.'s from array so that it can be matched
+      // j loop takes next no.'s from array so that it can be matched
       for (int j=i+1; j < a.length; j++)
       {
-        //now if the pair adds upto k
+        // now if the pair adds upto k
         if (a[i]+a[j]==k)
           return true;
       }
     }
   }
-  //if iterations are over and nothing is returned yet,
-  //that means there is no such pair that adds upto k in an array
+  // if iterations are over and nothing is returned yet,
+  // that means there is no such pair that adds upto k in an array
   return false;
 }
 
-//driver code
+// driver code
 public static void main(String[] args)throws IOException
 {
   BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -28,12 +28,13 @@ public class Day12 {
 			// and if similar key is present in HashMap,
 			// it returns the previously stored value(character)
 			Character c = map.putIfAbsent(s1.charAt(i),s2.charAt(i));
-
-			// when previously mapped character s1 to s2 is not equal to
-			// currently mapped characters of s1 and s2
-			// then mapping is one to many
-			if(c != null && c != s2.charAt(i))
-				return false;
+			Character c1= map.putIfAbsent(s2.charAt(i),s1.charAt(i));
+				
+				// when previously mapped character s1 to s2 is not equal to
+				// currently mapped characters of s1 and s2
+				// then mapping is one to many
+				if(c != null && c != s2.charAt(i) && c1 != null && c1 != s1.charAt(i))
+					return false;
 		}
 
 		// if nothing is returned till now that means mapping is one to one

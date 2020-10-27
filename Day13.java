@@ -3,8 +3,6 @@
 // Given [-4, 5, 1, 0], return 6 as we choose the numbers 5 and 1.
 
 
-import java.util.ArrayList;
-
 public class Day13
 {
 	int a[] , totalSum=0;

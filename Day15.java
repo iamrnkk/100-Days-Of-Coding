@@ -43,7 +43,7 @@ class Trie{
 			// if the alphabet is already in trie, increase its frequency
 			else
 				(temp.child[c-'a'].unique)++;
-			
+
 			// move to next child node
 			temp= temp.child[c-'a'];
 		}
@@ -57,7 +57,7 @@ class Trie{
 		// variable that stores prefix
 		String prefix="";
 
-		// looping to acces each alphabet of word
+		// looping to access each alphabet of word
 		for(int i=0; i < word.length(); i++ )
 		{
 			char c= word.charAt(i);
@@ -83,7 +83,7 @@ class Trie{
 		String prefixes[] = new String[words.length];
 		root= new TrieNode();
 
-		// making a trie by inserting alphabets of each word in arr words
+		// making a trie by inserting alphabets of each word from arr words
 		for(int i= 0; i<words.length; i++)
 			insert(words[i]);
 

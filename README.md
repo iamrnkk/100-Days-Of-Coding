@@ -20,4 +20,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 15-  [shortest unique prefix](Day15.java)
 1. Day 16-  [find all starting indices in String which are anagrams](Day16.java)
 1. Day 17-  [GCD of n numbers](Day17.java)
-1. Day 17-  [find the majority element, which appears more than half the time of length of array](Day18.java)
+1. Day 18-  [find the majority element, which appears more than half the time of length of array](Day18.java)

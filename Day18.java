@@ -31,9 +31,7 @@ public class Day18 {
 				if(frequencyMap.get(majorityElement) < frequencyMap.get(numbers[i]) )
 					majorityElement= numbers[i];
 				}
-			System.out.println(majorityElement);
 		}
-		System.out.println(frequencyMap);
 
 		// this is optional for the given question as question says
 		// "You can assume that such element exists."

@@ -22,3 +22,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 17-  [GCD of n numbers](Day17.java)
 1. Day 18-  [find the majority element, which appears more than half the time of length of array](Day18.java)
 1. Day 19-  [minimum level sum](Day19.java)
+1. Day 20-  [largest subset that has every pair of elements that satisfies either i % j = 0 or j % i = 0](Day20.java)

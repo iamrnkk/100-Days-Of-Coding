@@ -18,7 +18,7 @@ class TreeNode
 
 public class Day19 {
 
-	public static int findMaxLevelSum(TreeNode root)
+	public static int findMinLevelSum(TreeNode root)
 	{
 		// if tree doesn't exists
 		if (root == null)
@@ -61,13 +61,13 @@ public class Day19 {
 	{
 		 TreeNode root = new TreeNode(1);
 		 root.left = new TreeNode(2);
-         root.right = new TreeNode(3);
-   	     root.left.left = new TreeNode(4);
-	     root.left.right = new TreeNode(5);
-	     root.right.right = new TreeNode(6);
-	     root.right.right.left = new TreeNode(7);
-	     root.right.right.right = new TreeNode(8);
-	     /*   Constructed Binary tree is:
+     root.right = new TreeNode(3);
+   	 root.left.left = new TreeNode(4);
+	   root.left.right = new TreeNode(5);
+     root.right.right = new TreeNode(6);
+     root.right.right.left = new TreeNode(7);
+     root.right.right.right = new TreeNode(8);
+	  /*   Constructed Binary tree is:
 				         1
 				       /   \
 				     2      3
@@ -76,6 +76,6 @@ public class Day19 {
 				            /   \
 				           7     8    */
 
-	     System.out.println(findMaxLevelSum(root));
+	   System.out.println(findMinLevelSum(root));
 	}
 }

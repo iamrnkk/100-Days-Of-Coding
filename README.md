@@ -24,3 +24,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 19-  [minimum level sum](Day19.java)
 1. Day 20-  [largest subset that has every pair of elements that satisfies either i % j = 0 or j % i = 0](Day20.java)
 1. Day 21-  [swap even and odd bits of unsigned 8 bit integer](Day21.java)
+1. Day 22-  [smallest distance between any two words in string](Day22.java)

@@ -28,3 +28,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 23-  [determine whether any permutation of string is a palindrome.](Day23.java)
 1. Day 24-  [shortest interval that covers all the intervals](Day24.java)
 1. Day 25-  [find duplicate (Pigeon hole principle)](Day25.java)
+1. Day 26-  [check if brackets are balanced](Day26.java)

@@ -18,7 +18,7 @@ class IntervalComparator implements Comparator <Interval>
 		// then put the one with higher start interval first
 		// ex- a = [1,3] b = [2,3]
 		// after comparing = [ [2,3],[1,3] ]
-		//(this part is optional)
+		// (this part is optional)
 		if (a.end==b.end)
 			return b.start-a.start;
 

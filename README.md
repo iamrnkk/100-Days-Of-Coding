@@ -30,3 +30,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 25-  [find duplicate (Pigeon hole principle)](Day25.java)
 1. Day 26-  [check if brackets are balanced](Day26.java)
 1. Day 27-  [swapping bits](Day27.java)
+1. Day 28-  [find square roots](Day28.java)

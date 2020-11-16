@@ -32,4 +32,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 27-  [swapping bits](Day27.java)
 1. Day 28-  [find square roots](Day28.java)
 1. Day 29-  [n-bit Gray Codes](Day29.java)
-1. Day 29-  [minimum edit distance](Day30.java)
+1. Day 30-  [minimum edit distance](Day30.java)

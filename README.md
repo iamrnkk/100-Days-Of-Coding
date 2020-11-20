@@ -35,3 +35,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 30-  [minimum edit distance](Day30.java)
 1. Day 31-  [clone singly linked list with random pointers](Day31.java)
 1. Day 32-  [validate binary search tree](Day32.java)
+1. Day 33-  [Two Sum in BST](Day33.java)

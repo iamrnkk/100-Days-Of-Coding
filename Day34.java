@@ -20,6 +20,9 @@ public class Day34
 {
 	public static Node rotate(Node start, int k)
 	{
+		if(start==null || start.next==null)
+			return null;
+		
 		Node head = start.next;
 		Node slow= head;
 		Node fast= head;
@@ -31,6 +34,9 @@ public class Day34
 		 * fast=4
 		 * linked list: 1[head]-> 2[slow]-> 3-> 4[fast]-> 5
 		 */
+
+		if(fast==null) // k > length of linkedlist
+			return null;
 
 		while(fast.next!=null)
 		{

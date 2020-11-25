@@ -50,16 +50,16 @@ public class Day34
 		
 		fast.next= head;
 		/* linked list: 1[head]-> 2-> 3[slow]-> 4-> 5[fast]
-		 * 				^                           :
-		 * 				|                           |
-		 * 				- - - - - - - - - - - - - - -
+		 * 		^                           :
+		 * 		|                           |
+		 * 		- - - - - - - - - - - - - - -
 		 */
 		
 		start.next= slow;
 		/* linked list: 1-> 2-> 3[slow]-> 4[head]-> 5[fast]
-		 * 				^                           :
-		 * 				|                           |
-		 * 				- - - - - - - - - - - - - - -
+		 * 		^                           :
+		 * 		|                           |
+		 * 		- - - - - - - - - - - - - - -
 		 */
 		
 		slow.next=null;

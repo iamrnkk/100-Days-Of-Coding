@@ -37,4 +37,5 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 32-  [validate binary search tree](Day32.java)
 1. Day 33-  [Two Sum in BST](Day33.java)
 1. Day 34-  [rotate linked list to kth place](Day34.java)
-1. Day 35-  [SIngleton pattern with a twist](Day35.java)
+1. Day 35-  [Singleton pattern with a twist](Day35.java)
+1. Day 35-  [Count frequency of each character in a string generated according to Markov Chain](Day36.java)

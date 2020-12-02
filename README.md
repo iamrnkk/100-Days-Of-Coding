@@ -40,3 +40,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 35-  [Singleton pattern with a twist](Day35.java)
 1. Day 36-  [Count frequency of each character in a string generated according to Markov Chain](Day36.java)
 1. Day 37-  [implement sparse array](Day37.java)
+1. Day 38-  [Find Permutations](Day38.java)

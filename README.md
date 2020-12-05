@@ -42,3 +42,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 37-  [implement sparse array](Day37.java)
 1. Day 38-  [Find Permutations](Day38.java)
 1. Day 39-  [Minimum Sum Path in Binary Tree](Day39.java)
+1. Day 40-  [two unique elements in duplicates](Day40.java)

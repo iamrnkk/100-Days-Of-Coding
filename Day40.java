@@ -7,8 +7,6 @@
 
 // Follow-up: Can you do this in linear time and constant space?
 
-import java.util.ArrayList;
-import java.util.HashMap;
 
 public class Day40
 {

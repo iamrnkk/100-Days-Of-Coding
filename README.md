@@ -46,3 +46,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 41-  [Minimally Connected Graph (Tree)](Day41.java)
 1. Day 42-  [minimum steps neede to reach end](Day42.java)
 1. Day 43-  [total flips for n coins](Day43.java)
+1. Day 44-  [Next Greater permutation (lexicographic order)](Day44.java)

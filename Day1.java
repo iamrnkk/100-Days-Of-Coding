@@ -19,7 +19,7 @@ class Day1
           return true;
       }
     }
-  }
+
   // if iterations are over and nothing is returned yet,
   // that means there is no such pair that adds upto k in an array
   return false;
@@ -42,4 +42,5 @@ public static void main(String[] args)throws IOException
     a[i] = Integer.parseInt(br.readLine());
 
   System.out.println(check(a,k));
+}
 }

@@ -48,3 +48,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 43-  [total flips for n coins](Day43.java)
 1. Day 44-  [Next Greater permutation (lexicographic order)](Day44.java)
 1. Day 45-  [level order traversal of binary tree](Day45.java)
+1. Day 46-  [nearest largest integer](Day46.java)

@@ -50,3 +50,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 45-  [level order traversal of binary tree](Day45.java)
 1. Day 46-  [nearest largest integer](Day46.java)
 1. Day 47-  [generate a number according to its probability](Day47.java)
+1. Day 48-  [uber question- direction and position rule verification](Day48.java)

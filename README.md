@@ -51,3 +51,5 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 46-  [nearest largest integer](Day46.java)
 1. Day 47-  [generate a number according to its probability](Day47.java)
 1. Day 48-  [uber question- direction and position rule verification](Day48.java)
+1. Day 49-  [partial equal subset sum](Day49.java)
+1. Day 60-  [Check if brackets are balanced](Day60.java)

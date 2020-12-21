@@ -52,4 +52,5 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 47-  [generate a number according to its probability](Day47.java)
 1. Day 48-  [uber question- direction and position rule verification](Day48.java)
 1. Day 49-  [partial equal subset sum](Day49.java)
+1. Day 50-  [Check if word is present in 2D-matrix horizontally or vertically](Day50.java)
 1. Day 60-  [Check if brackets are balanced](Day60.java)

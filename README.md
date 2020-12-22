@@ -54,4 +54,5 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 49-  [partial equal subset sum](Day49.java)
 1. Day 50-  [Check if word is present in 2D-matrix horizontally or vertically](Day50.java)
 1. Day 51-  [Given a function f, and N return a debounced f of N milliseconds.](Day51.java)
+1. Day 52-  [Find nth perfect number whose sum of digits is 10](Day52.java)
 1. Day 60-  [Check if brackets are balanced](Day60.java)

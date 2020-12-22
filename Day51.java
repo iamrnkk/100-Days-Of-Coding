@@ -26,6 +26,7 @@ class Task implements Runnable
 			
 			// calling debounce method
 			Day51.debounce(ob,N);
+            
 		} catch (InterruptedException e) {
 			
 			// TODO Auto-generated catch block
@@ -48,8 +49,7 @@ public class Day51
 		// resetting 
 		lastCallingTime=0;
 	}
-	
-	// 
+	 
 	public static void debounce(Day51 callback, long N) throws InterruptedException
 	{
 		// if the function is not called before or it has been a while since the function was called last time
@@ -67,11 +67,7 @@ public class Day51
 		
 		// if function has already been called in less than N seconds
 		else
-		{
-			System.out.println((System.currentTimeMillis()-callback.lastCallingTime)*1000+" "+ N );
-			System.out.println("pass");
 			return;
-		}
 	}
 	
 	// Driver Code

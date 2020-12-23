@@ -45,7 +45,7 @@ public class Day53
 		for(int i=startRow; i<=endCol; i++)
 			System.out.println(matrix[startRow][i]);
 		
-		// printing current last coloumn (up to down)
+		// printing current last column (up to down)
 		for(int j= startRow+1; j <=endRow; j++)
 			System.out.println(matrix[j][endCol]);
 		
@@ -58,7 +58,7 @@ public class Day53
 		
 		if(startCol != endCol)
 		{
-			// printing current first coloumn (down to up)
+			// printing current first column (down to up)
 			for(int j= endRow-1; j > startRow; j--)
 				System.out.println(matrix[j][startCol]);
 		}

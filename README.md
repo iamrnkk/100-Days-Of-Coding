@@ -56,4 +56,5 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 51-  [Given a function f, and N return a debounced f of N milliseconds.](Day51.java)
 1. Day 52-  [Find nth perfect number whose sum of digits is 10](Day52.java)
 1. Day 53-  [print matrix spirally](Day53.java)
+1. Day 54-  [partition the linked list so that all nodes less than k come before nodes greater than or equal to k](Day54.java)
 1. Day 60-  [Check if brackets are balanced](Day60.java)

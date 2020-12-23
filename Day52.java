@@ -28,7 +28,7 @@ public class Day52
 		
 		while(counter<n)
 		{
-			// increase cointer when encounter a perfect number
+			// increase counter when encounter a perfect number
 			if(digitSum(++nthPerfect) == 10)
 				counter++;
 		}

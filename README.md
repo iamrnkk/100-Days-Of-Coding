@@ -58,4 +58,5 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 53-  [print matrix spirally](Day53.java)
 1. Day 54-  [partition the linked list so that all nodes less than k come before nodes greater than or equal to k](Day54.java)
 1. Day 55-  [square the integers of sorted list and return list in sorted order](Day55.java)
+1. Day 56-  [merge overlapping intervals](Day56.java)
 1. Day 60-  [Check if brackets are balanced](Day60.java)

@@ -61,4 +61,6 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 56-  [merge overlapping intervals](Day56.java)
 1. Day 57-  [calculates the maximum profit you could have made from buying and selling stock](Day57.java)
 1. Day 58-  [merge K sorted Lists](Day58.java)
+1. Day 59-  [Restore IP Adresses](Day59.java)
 1. Day 60-  [Check if brackets are balanced](Day60.java)
+1. Day 61-  [longest increasing subsequence](Day61.java)

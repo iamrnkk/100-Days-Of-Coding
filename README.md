@@ -65,3 +65,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 60-  [Check if brackets are balanced](Day60.java)
 1. Day 61-  [longest increasing subsequence](Day61.java)
 1. Day 62-  [Encode and decode the string](Day62.java)
+1. Day 63-  [return x if b=1, return y if b=0 only using mathematical or bit operations](Day63.java)

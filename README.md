@@ -71,3 +71,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 66-  [determine whether linked list is palindrome or not](Day66.java)
 1. Day 67-  [Implement division of integers without using *, /, % operators](Day67.java)
 1. Day 68-  [Implement integer exponentiation. That is, implement the pow(x, y) function](Day68.java)
+1. Day 69-  [Find minimum number of rooms required (Meeting rooms II)](Day69-Visualisation+Approach+code)

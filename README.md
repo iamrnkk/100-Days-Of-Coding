@@ -72,4 +72,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 67-  [Implement division of integers without using *, /, % operators](Day67.java)
 1. Day 68-  [Implement integer exponentiation. That is, implement the pow(x, y) function](Day68.java)
 1. Day 69-  [Find minimum number of rooms required (Meeting rooms II)](Day69-Visualisation+Approach+code)
-1. Day 70-  [Implement fata structure from e-commerce site](Day70.java)
+1. Day 70-  [Implement data structure for e-commerce site](Day70.java)

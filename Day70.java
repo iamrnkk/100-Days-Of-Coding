@@ -13,15 +13,23 @@ class Orders
 {
 	HashMap<Integer,String> ordersMap;
 	int lastIndex=-1;
+	int firstIndex=-1;
+	int window;
 	
-	public Orders()
+	public Orders(int N)
 	{
-		ordersMap = new HashMap<>();
+		window=N;
+		ordersMap = new HashMap<>(window);
 	}
 	
 	public void record(String orderId)
 	{
 		ordersMap.put(++lastIndex,orderId);
+		
+		if(firstIndex==-1) firstIndex=0;
+		
+		if(lastIndex-firstIndex >= window)
+			ordersMap.remove(firstIndex++);
 	}
 	
 	public String getLast(int i)
@@ -30,19 +38,18 @@ class Orders
 	}
 }
 
-//Driver Code
 public class Day70 
 {
 	public static void main(String args[])
 	{
-		Orders o= new Orders();
+		Orders o= new Orders(3);
 		
 		o.record("4576");
 		o.record("45124");
 		o.record("4532");
 		o.record("13476");
 		o.record("45236");
-		
+		System.out.println(o.ordersMap);
 		System.out.println(o.getLast(2));
 	}
 }

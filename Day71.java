@@ -27,7 +27,10 @@ class BitArray
 	void set(int i, int val)
 	{
 		if(i>=n || i<0)
+		{
 			System.out.println("Invalid index");
+			return;
+		}
 		
 		arr[i]= val>0;	
 	}

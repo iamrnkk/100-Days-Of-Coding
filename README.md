@@ -74,3 +74,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 69-  [Find minimum number of rooms required (Meeting rooms II)](Day69-Visualisation+Approach+code)
 1. Day 70-  [Implement data structure for e-commerce site](Day70.java)
 1. Day 71-  [Implement Bit Array](Day71.java)
+1. Day 72-  [String can be shifted to get other string? (Rotate String)](Day72.java)

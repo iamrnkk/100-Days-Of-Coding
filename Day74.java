@@ -29,6 +29,7 @@ public class Day74
 			// by decrementing coins[j] from sums[i]
 			// ex- 5-1 = 4 now check in sums[4] 
 			// if minimum coins needed in sums [4]+1 is less than current, replace it 
+            // (+1 ,since we have spent 1 coin to reach sums[4])
 			for(int j=0; j< coins.length && coins[j]<=i; j++)
 				sums[i]= Math.min(sums[i], 1+sums[i- coins[j]]);
 		}

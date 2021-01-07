@@ -77,3 +77,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 1. Day 72-  [String can be shifted to get other string? (Rotate String)](Day72.java)
 1. Day 73-  [Longest Consequtive Sequence](Day73.java)
 2. Day 74-  [Minimum Coins needed to get sum (Coin Change)](Day74.java)
+3. Day 75-  [Maximum Path Sum (one Node to another Node)](Day75.java)

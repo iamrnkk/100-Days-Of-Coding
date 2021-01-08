@@ -79,3 +79,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 2. Day 74-  [Minimum Coins needed to get sum (Coin Change)](Day74.java)
 3. Day 75-  [Maximum Path Sum (one Node to another Node)](Day75.java)
 4. Day 76-  [return Nth fibnacci sequence (classic fibonacci series)](Day76.java)
+5. Day 77-  [return true if array can become nondecrease by modifying 1 element](Day77.java)

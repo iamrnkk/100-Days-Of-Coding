@@ -80,3 +80,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 3. Day 75-  [Maximum Path Sum (one Node to another Node)](Day75.java)
 4. Day 76-  [return Nth fibnacci sequence (classic fibonacci series)](Day76.java)
 5. Day 77-  [return true if array can become nondecrease by modifying 1 element](Day77.java)
+6. Day 78-  [get a random number from 0 to n-1 numbers excluding some numbers](Day78.java)

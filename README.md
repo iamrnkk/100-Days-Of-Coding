@@ -83,3 +83,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 6. Day 78-  [get a random number from 0 to n-1 numbers excluding some numbers](Day78.java)
 7. Day 79-  [Search in rotated sorted array](Day79.java)
 7. Day 80-  [Make a fair coin from biased coin](Day80.java)
+7. Day 81-  [Determine whether you can reach last index (Jump Game)](Day81.java)

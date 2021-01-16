@@ -85,3 +85,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 7. Day 80-  [Make a fair coin from biased coin](Day80.java)
 7. Day 81-  [Determine whether you can reach last index (Jump Game)](Day81.java)
 7. Day 82-  [Palindrome Number](Day82.java)
+8. Day 83-  [Find Minimum Stabbing Points](Day83.java)

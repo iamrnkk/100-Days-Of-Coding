@@ -11,7 +11,9 @@ public class Day84
 {
 	public static int minPerfectSquares(int n)
 	{
-		// optional
+		if(n<0)
+            return 0;
+        // optional
 		if(n<=3)
 			return n;
 		

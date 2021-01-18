@@ -4,7 +4,7 @@ this repository contains Problems (with its solutions) related to Data Structure
 ## Table of Contents
 
 1. Day 1-   [return whether any two numbers from the list add up to k.](Day1.java)
-1. Day 2-   Unival Tree
+1. Day 2-   [Count Unival Trees](Day2.java)
 1. Day 3-   [Sieve of Eratosthenes](Day3.java)
 1. Day 4-   [Minimum number of swaps required for arranging pairs adjacent to each other](Day4.java)
 1. Day 5-   [Rearrange characters in a string such that no two adjacent are same](Day5.java)
@@ -79,11 +79,11 @@ this repository contains Problems (with its solutions) related to Data Structure
 2. Day 74-  [Minimum Coins needed to get sum (Coin Change)](Day74.java)
 3. Day 75-  [Maximum Path Sum (one Node to another Node)](Day75.java)
 4. Day 76-  [return Nth fibnacci sequence (classic fibonacci series)](Day76.java)
-5. Day 77-  [return true if array can become nondecrease by modifying 1 element](Day77.java)
+5. Day 77-  [return true if array can become non decreasing by modifying 1 element](Day77.java)
 6. Day 78-  [get a random number from 0 to n-1 numbers excluding some numbers](Day78.java)
 7. Day 79-  [Search in rotated sorted array](Day79.java)
 7. Day 80-  [Make a fair coin from biased coin](Day80.java)
 7. Day 81-  [Determine whether you can reach last index (Jump Game)](Day81.java)
 7. Day 82-  [Palindrome Number](Day82.java)
 8. Day 83-  [Find Minimum Stabbing Points](Day83.java)
-7. Day 82-  [Find minimum perfect squares needed to sum upto n (Perfect Squares)](Day84.java)
+7. Day 84-  [Find minimum perfect squares needed to sum upto n (Perfect Squares)](Day84.java)

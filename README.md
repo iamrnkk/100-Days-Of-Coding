@@ -87,3 +87,5 @@ this repository contains Problems (with its solutions) related to Data Structure
 7. Day 82-  [Palindrome Number](Day82.java)
 8. Day 83-  [Find Minimum Stabbing Points](Day83.java)
 7. Day 84-  [Find minimum perfect squares needed to sum upto n (Perfect Squares)](Day84.java)
+8. Day 85-  M-Coloring Graph Problem
+9. Day 86-  [rearrange array according to given permutation (Permutation in Place)](Day86.java)

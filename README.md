@@ -94,3 +94,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 9. Day 89-  [Egyption Fraction](Day89.java)
 9. Day 90-  [Merge Sort linked List](Day90.java)
 9. Day 91-  [Balance Brackets](Day91.java)
+10. Day 92-  [return a new array which counts number of smaller elements to the right of the element](Day92.java)

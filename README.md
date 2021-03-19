@@ -96,3 +96,4 @@ this repository contains Problems (with its solutions) related to Data Structure
 9. Day 91-  [Balance Brackets](Day91.java)
 9. Day 92-  [return a new array which counts number of smaller elements to the right of the element](Day92.java)
 9. Day 93-  [rotate k elements to the left](Day93.java)
+9. Day 94-  [find max consecutive 1 bits in number n](Day94.java)
